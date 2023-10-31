@@ -1,8 +1,7 @@
 #include<iostream>
-using namespace std;
 int main(){
-  string name;
-  cin >> name;
-  cout << "Hello world from " << name;
+  std::string name;
+  std::cin >> name;  // user name input
+  std::cout << "Hello world from " << name;  // user name output
   return 0;
 }
